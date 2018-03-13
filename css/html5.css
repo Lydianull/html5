@@ -1,0 +1,216 @@
+/* All tag */
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+.wrap{
+	width: 800px;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+    /*header区*/
+header{
+	height:90px;
+	background: #2e2e2e;
+}
+header> .container{
+	width: 1200px;
+	margin: 0 auto;
+}
+header> .container>a{
+	float: left;
+	display: block;
+	margin-top: 10px;
+	line-height: 90px;
+}
+header> .container>nav{
+	float: right;
+
+} 
+header> .container>nav>a{
+	color: #fff;
+	line-height: 90px;
+	font-size: 20px;
+	display: block;
+	float: left;
+	width:130px;
+	text-align: center;
+	
+}
+header> .container>nav>a:hover{
+	background: red;
+	color:black;
+	cursor: pointer;
+}
+
+/*banner区*/
+.banner{
+	height: 500px;
+	background: url(../img/banner.jpg) no-repeat;
+}
+.banner>.wrap{
+	position: relative;
+	color:#fff;
+	
+
+}
+.banner>.wrap>h1{
+	position: absolute;
+	width: 800px;
+	height: 80px;
+	line-height: 80px;
+	top: 250px;
+	margin-top: -50px;
+	font-size: 75px;
+	font-weight: lighter;
+}
+.banner>.wrap>p{
+	font-size: 20px;
+	position: absolute;
+	width: 800px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	top: 270px;
+}
+/*portfolio区*/
+.contact h3,
+.Team h3,
+.Stats h3,
+.Portfolio h3{
+	font-size: 48px;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 60px;
+	color: #f46208;
+
+}
+.contact p,
+.Team p,
+.Stats p,
+.Portfolio p{
+	text-align: center;
+	margin-top: 15px;
+	font-size: 14px;
+}
+.Portfolio .link{
+	margin-top:60px;
+	margin-left: 195px;
+	
+}
+.Portfolio .link a{
+	display: inline-block;
+           margin-right: 10px;
+	padding: 6px;
+	border: 2px solid #f46208;
+	color: #f46208;
+}
+.Portfolio .link a:hover{
+	background: #f46208;
+	color: #fff;
+	cursor: pointer;
+}
+.Portfolio .pic{
+	margin-top:40px;
+}
+.Portfolio .pic img{
+	width: 100%;
+	height: auto;
+}
+
+/*Stats区*/
+.Stats dl{
+	height: 100px;
+	width: 200px;
+	float: left;
+	text-align: center;
+	margin: 40px 0;
+}
+
+.Stats dl dt img{
+	height: 40px;
+
+}
+
+.Stats dl>dd:first-of-type{
+           font-size: 15px;
+}
+.Stats dl>dd:last-of-type{
+	font-size: 17px;
+	color: #f46208;
+}
+
+/*Team区*/
+.Team{
+	clear: both;
+	background: #2e2e2e;
+	padding-top: 15px;
+	height: 550px;
+}
+.Team .wrap p{
+	color: #fff;
+}
+.Team .wrap dl{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+}
+.Team .wrap dl dd:first-of-type{
+	font-size: 20px;
+}
+.Team .wrap dl dd:last-of-type{
+	font-size: 15px;
+}
+/*contact us区*/
+.contact form{
+	font-size: 0;
+}
+.contact .name,
+.contact .email{
+	margin-top: 20px;
+	width: 375px;
+	height: 15px;
+	padding:5px; 
+
+
+}
+.contact .email{
+	margin-left: 22px;
+}
+.contact .msg{
+	width: 776px;
+	height: 200px;
+	padding: 10px;
+	margin-top: 8px;
+}
+.contact button{
+	background:#f46208;
+	color: #fff;
+	height: 30px;
+	width: 145px;
+	border:none;
+	margin: 25px 0 50px 330px;
+}
+.contact button:hover{
+	cursor: pointer;
+	color: #f46208;
+	background: #fff;
+	border: 2px solid #2e2e2e;
+
+}
+/*页脚区*/
+footer{
+	height: 80px;
+	background: #2e2e2e;
+	line-height: 80px;
+	text-align: center;
+	color: #fff;
+}
